@@ -1,0 +1,14 @@
+I have few questions regarding Authentication system .
+1. How Laravel breeze works?
+2. Why to give --dev flag in composer require of breeze.
+3. Why is it needed to run install command after the require commandand also why npm run dev and npm install?
+4. How Authentication system and middlewares here actually works here?
+5. In my http/middleware folder some files are already prestent is these are default like Authenticate.php,EncryptCookies.php,etc..?
+6. Why some routes are in web.php and some are in the auth.php?
+7. what is require __DIR__.'/auth.php' in web.php?
+8. Instead of using Breeze if i use php artisan make:auth, then what is the difference??
+9. Why a auth folder is created in http/controller ??
+
+Note: You can explain me the questions priority wise.
+
+
