@@ -1,5 +1,5 @@
 <?php
-
+// app/Http/Controllers/SlotController.php
 namespace App\Http\Controllers;
 use App\Models\InterviewSlot;
 use App\Models\Mentor;

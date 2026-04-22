@@ -21,11 +21,15 @@ public function candidate()
 
 public function mentor()
 {
-    return $this->belongsTo(Mentor::class);
+    return $this->belongsTo(Mentor::class,'mentor_id');
 }
 
 public function slot()
 {
     return $this->belongsTo(InterviewSlot::class,'slot_id');
+}
+public function feedback()
+{
+    return $this->hasOne(Feedback::class);
 }
 }
